@@ -146,7 +146,7 @@ function App() {
             <SectionHeading
               eyebrow="Contact"
               title="Academic links"
-              description="Use email for direct contact. Other profile links are placeholders and can be updated in the links data file."
+              description="Use email for direct contact, or follow academic and professional profile links below."
             />
             <div className="grid gap-4 sm:grid-cols-2">
               {contactLinks.map((link) => (

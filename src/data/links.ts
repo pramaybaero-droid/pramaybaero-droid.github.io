@@ -13,22 +13,22 @@ export const contactLinks: ContactLink[] = [
   {
     label: "Google Scholar",
     value: "Google Scholar profile",
-    href: "#"
+    href: "https://scholar.google.com/citations?user=w8A1gMUAAAAJ&hl=en"
   },
   {
     label: "ORCID",
     value: "ORCID profile",
-    href: "#"
+    href: "https://orcid.org/0000-0001-8151-9629"
   },
   {
     label: "GitHub",
     value: "GitHub profile",
-    href: "#"
+    href: "https://github.com/pramaybaero-droid"
   },
   {
     label: "LinkedIn",
     value: "LinkedIn profile",
-    href: "#"
+    href: "https://www.linkedin.com/in/pramay-b-15v11/"
   },
   {
     label: "Institutional profile",
