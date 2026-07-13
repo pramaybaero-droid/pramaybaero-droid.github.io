@@ -31,8 +31,13 @@ export const contactLinks: ContactLink[] = [
     href: "https://www.linkedin.com/in/pramay-b-15v11/"
   },
   {
-    label: "Institutional profile",
-    value: "IISc profile",
-    href: "#"
+    label: "YouTube",
+    value: "DEM Granular Mechanics Lab",
+    href: "https://www.youtube.com/@DEMGranularMechanicsLab"
+  },
+  {
+    label: "Instagram",
+    value: "granular.ai",
+    href: "https://www.instagram.com/granular.ai/"
   }
 ];
