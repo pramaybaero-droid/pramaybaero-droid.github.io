@@ -8,6 +8,10 @@ export const profile = {
     "Granular mechanics, DEM simulations, constitutive modelling, and data-driven analysis of stress-strain behaviour.",
   summary:
     "I study how particle-scale interactions control macroscopic response in granular materials, with emphasis on contact models, small-strain stiffness, triaxial simulations, and physics-informed curve fitting.",
+  photo: {
+    src: "/profile-photo.png",
+    alt: "Portrait of Pramay"
+  },
   cvPath: "/Pramay_CV.pdf",
   bio: [
     "Pramay is a PhD Scholar in the Department of Aerospace Engineering at the Indian Institute of Science (IISc), Bengaluru.",
