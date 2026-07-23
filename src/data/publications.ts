@@ -13,9 +13,27 @@ export type Publication = {
 };
 
 export const publicationNote =
-  "Conference publications spanning granular mechanics, small-strain properties, curve fitting, and contact-model-based constitutive modelling.";
+  "Publications spanning granular mechanics, small-strain properties, curve fitting, machine learning, and contact-model-based constitutive modelling.";
 
 export const publications: Publication[] = [
+  {
+    title:
+      "Separable surrogates for DEM-derived elastic moduli of Hertz-Mindlin and Cundall-Strack granular packings",
+    authors: "Pramay B. and S. Gopalakrishnan",
+    venue: "Computers and Geotechnics",
+    year: "2026",
+    note: "Volume 200, article 108453.",
+    links: [
+      {
+        label: "DOI",
+        href: "https://doi.org/10.1016/j.compgeo.2026.108453"
+      },
+      {
+        label: "PDF",
+        href: "https://www.sciencedirect.com/science/article/pii/S0266352X26005598"
+      }
+    ]
+  },
   {
     title:
       "Prediction of Small-Strain Properties of Dry Sand Using Curve Fitting and Machine Learning Models",
