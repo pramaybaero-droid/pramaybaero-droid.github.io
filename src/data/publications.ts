@@ -43,8 +43,12 @@ export const publications: Publication[] = [
     note: "Volume 340, article 09013. Published by EDP Sciences.",
     links: [
       {
+        label: "DOI",
+        href: "https://doi.org/10.1051/epjconf/202534009013"
+      },
+      {
         label: "PDF",
-        href: "https://www.epj-conferences.org/articles/epjconf/abs/2025/25/epjconf_PnG2025_09013/epjconf_PnG2025_09013.html"
+        href: "https://www.epj-conferences.org/articles/epjconf/pdf/2025/25/epjconf_PnG2025_09013.pdf"
       }
     ]
   },
@@ -59,6 +63,10 @@ export const publications: Publication[] = [
     note:
       "Volume 88759, paper V001T03A016. Published by the American Society of Mechanical Engineers.",
     links: [
+      {
+        label: "DOI",
+        href: "https://doi.org/10.1115/SSDM2025-152166"
+      },
       {
         label: "PDF",
         href: "https://asmedigitalcollection.asme.org/ssdm/proceedings/SSDM2025/88759/V001T03A016/1219011"
