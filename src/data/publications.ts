@@ -41,7 +41,12 @@ export const publications: Publication[] = [
     venue: "EPJ Web of Conferences",
     year: "2025",
     note: "Volume 340, article 09013. Published by EDP Sciences.",
-    links: []
+    links: [
+      {
+        label: "PDF",
+        href: "https://www.epj-conferences.org/articles/epjconf/abs/2025/25/epjconf_PnG2025_09013/epjconf_PnG2025_09013.html"
+      }
+    ]
   },
   {
     title:
@@ -53,6 +58,11 @@ export const publications: Publication[] = [
     year: "2025",
     note:
       "Volume 88759, paper V001T03A016. Published by the American Society of Mechanical Engineers.",
-    links: []
+    links: [
+      {
+        label: "PDF",
+        href: "https://asmedigitalcollection.asme.org/ssdm/proceedings/SSDM2025/88759/V001T03A016/1219011"
+      }
+    ]
   }
 ];
