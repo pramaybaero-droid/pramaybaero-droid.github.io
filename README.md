@@ -125,7 +125,7 @@ Because the repository is named `pramaybaero-droid.github.io`, Vite is configure
 
 ## Notes
 
-- Publication entries are placeholders only. Replace them with real publications when available.
-- Project GitHub and demo links are placeholders. Update them in `src/data/projects.ts`.
-- Contact and profile links are placeholders. Update them in `src/data/links.ts`.
-- The design uses lightweight CSS and an inline SVG visual motif, so the site stays fast and easy to maintain.
+- Publication and manuscript entries live in `src/data/publications.ts`.
+- Research-thread content lives in `src/data/projects.ts`.
+- Contact and profile links live in `src/data/links.ts`.
+- The design uses lightweight React components and static assets, so the site stays fast and easy to maintain.

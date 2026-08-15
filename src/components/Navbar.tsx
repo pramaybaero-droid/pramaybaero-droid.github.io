@@ -1,11 +1,12 @@
 import { useState } from "react";
+import { profile } from "../data/profile";
 
 const navItems = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
-  { label: "Research", href: "#research" },
-  { label: "Projects", href: "#projects" },
-  { label: "Publications", href: "#publications" },
+  { label: "Threads", href: "#threads" },
+  { label: "Papers", href: "#publications" },
+  { label: "Talks", href: "#talks" },
   { label: "CV", href: "#cv" },
   { label: "Contact", href: "#contact" }
 ];
@@ -14,7 +15,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-graphite-200/80 bg-sand-50/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-graphite-200/80 bg-sand-50/95 backdrop-blur">
       <nav
         className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3"
         aria-label="Primary navigation"
@@ -24,7 +25,10 @@ export function Navbar() {
           className="font-serif text-lg font-semibold text-graphite-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-research-cyan"
           onClick={() => setIsOpen(false)}
         >
-          Pramay
+          <span>{profile.name}</span>
+          <span className="ml-2 font-mono text-[0.65rem] font-medium uppercase tracking-[0.18em] text-graphite-400">
+            IISc
+          </span>
         </a>
 
         <button
