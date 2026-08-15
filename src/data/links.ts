@@ -7,8 +7,8 @@ export type ContactLink = {
 export const contactLinks: ContactLink[] = [
   {
     label: "Email",
-    value: "your.email@iisc.ac.in",
-    href: "mailto:your.email@iisc.ac.in"
+    value: "pramayb@iisc.ac.in",
+    href: "mailto:pramayb@iisc.ac.in"
   },
   {
     label: "Google Scholar",

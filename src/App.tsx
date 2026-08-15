@@ -55,7 +55,7 @@ function App() {
             <SectionHeading
               eyebrow="Projects"
               title="Research code and workflows"
-              description="Version 1 project placeholders for simulation workflows, analysis pipelines, and model comparison tools."
+              description="Simulation workflows, analysis pipelines, and model-comparison tools developed around granular mechanics research."
             />
             <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
               {projects.map((project) => (

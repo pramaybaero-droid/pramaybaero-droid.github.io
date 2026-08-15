@@ -1,5 +1,5 @@
 export const profile = {
-  name: "Pramay",
+  name: "Pramay Bhatpahri",
   role: "PhD Scholar",
   affiliation:
     "Department of Aerospace Engineering, Indian Institute of Science (IISc), Bengaluru",

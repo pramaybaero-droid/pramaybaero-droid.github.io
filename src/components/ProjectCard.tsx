@@ -12,6 +12,11 @@ const statusClasses: Record<ProjectStatus, string> = {
 };
 
 export function ProjectCard({ project }: ProjectCardProps) {
+  const projectLinks = [
+    project.githubUrl ? { label: "GitHub", href: project.githubUrl } : null,
+    project.demoUrl ? { label: "Demo", href: project.demoUrl } : null
+  ].filter(Boolean) as Array<{ label: string; href: string }>;
+
   return (
     <article className="flex h-full flex-col rounded-lg border border-graphite-200 bg-white p-5 shadow-soft">
       <div className="flex flex-wrap items-start justify-between gap-3">
@@ -32,20 +37,19 @@ export function ProjectCard({ project }: ProjectCardProps) {
           <Tag key={tag}>{tag}</Tag>
         ))}
       </div>
-      <div className="mt-6 flex gap-3 border-t border-graphite-100 pt-4">
-        <a
-          href={project.githubUrl}
-          className="text-sm font-semibold text-research-blue hover:text-graphite-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-research-cyan"
-        >
-          GitHub
-        </a>
-        <a
-          href={project.demoUrl}
-          className="text-sm font-semibold text-research-blue hover:text-graphite-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-research-cyan"
-        >
-          Demo
-        </a>
-      </div>
+      {projectLinks.length > 0 ? (
+        <div className="mt-6 flex gap-3 border-t border-graphite-100 pt-4">
+          {projectLinks.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              className="text-sm font-semibold text-research-blue hover:text-graphite-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-research-cyan"
+            >
+              {link.label}
+            </a>
+          ))}
+        </div>
+      ) : null}
     </article>
   );
 }
