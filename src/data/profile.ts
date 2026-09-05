@@ -66,6 +66,7 @@ export const profile = {
     "Python",
     "MATLAB",
     "C",
+    "Finite element method (FEM)",
     "Abaqus UMAT / Fortran",
     "ANSYS",
     "SOLIDWORKS",
