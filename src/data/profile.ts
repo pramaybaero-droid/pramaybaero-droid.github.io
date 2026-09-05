@@ -5,7 +5,7 @@ export const profile = {
     "Department of Aerospace Engineering, Indian Institute of Science (IISc), Bengaluru",
   title: "PhD Scholar, Aerospace Engineering, IISc Bengaluru",
   headline:
-    "Small-strain elasticity of dense granular assemblies, from DEM to constitutive law.",
+    "Small-strain elasticity of dense granular assemblies, from DEM to constitutive law",
   summary:
     "Computational granular mechanics with the audit trail attached: DEM simulation, contact-law comparison, elastic-window extraction, and physics-aware modelling of small-strain stiffness.",
   thesisTitle:
