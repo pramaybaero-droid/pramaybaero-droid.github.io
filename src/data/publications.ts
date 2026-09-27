@@ -81,13 +81,13 @@ export const publications: Publication[] = [
   },
   {
     title:
-      "Separable small-strain stiffness maps for dense granular assemblies across contact laws and particle-modulus regimes",
+      "Early-loading tangent modulus maps for dense spherical DEM assemblies across contact laws and particle-modulus regimes",
     authors: "B. Pramay, A. M. Shembekar, and S. Gopalakrishnan",
     venue: "Particuology",
-    year: "Under review",
-    status: "Journal manuscript",
+    year: "2026",
+    status: "Journal | accepted for publication",
     note:
-      "Calibrates separable stiffness maps for E and G across Cundall-Strack and Hertz-Mindlin contact laws at low and high particle-modulus regimes, using grouped cross-validation, AIC/BIC ranking, and physics-aware admissibility checks.",
+      "Accepted for publication on 23 Sep 2026. Article reference PARTIC2709. Maps early-loading tangent moduli for dense spherical DEM assemblies across contact laws and particle-modulus regimes.",
     links: []
   },
   {
