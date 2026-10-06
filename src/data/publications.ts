@@ -1,5 +1,5 @@
 export type PublicationLink = {
-  label: "DOI" | "PDF" | "Preprint" | "Code" | "BibTeX";
+  label: "DOI" | "PDF" | "Article" | "Preprint" | "Code" | "BibTeX";
   href: string;
 };
 
@@ -19,6 +19,26 @@ export const publicationNote =
 export const publications: Publication[] = [
   {
     title:
+      "Early-loading tangent modulus maps for dense spherical DEM assemblies across contact laws and particle-modulus regimes",
+    authors: "B. Pramay, Anay Mohan Shembekar, and S. Gopalakrishnan",
+    venue: "Particuology",
+    year: "2026",
+    status: "Journal | published online",
+    note:
+      "Available online 3 October 2026. Maps early-loading tangent moduli for dense spherical DEM assemblies across contact laws and particle-modulus regimes.",
+    links: [
+      {
+        label: "DOI",
+        href: "https://doi.org/10.1016/j.partic.2026.09.014"
+      },
+      {
+        label: "Article",
+        href: "https://www.sciencedirect.com/science/article/pii/S1674200126003524"
+      }
+    ]
+  },
+  {
+    title:
       "Separable surrogates for DEM-derived elastic moduli of Hertz-Mindlin and Cundall-Strack granular packings",
     authors: "Pramay B. and S. Gopalakrishnan",
     venue: "Computers and Geotechnics",
@@ -32,7 +52,7 @@ export const publications: Publication[] = [
         href: "https://doi.org/10.1016/j.compgeo.2026.108453"
       },
       {
-        label: "PDF",
+        label: "Article",
         href: "https://www.sciencedirect.com/science/article/pii/S0266352X26005598"
       }
     ]
@@ -54,6 +74,10 @@ export const publications: Publication[] = [
       {
         label: "PDF",
         href: "https://www.epj-conferences.org/articles/epjconf/pdf/2025/25/epjconf_PnG2025_09013.pdf"
+      },
+      {
+        label: "Article",
+        href: "https://www.epj-conferences.org/articles/epjconf/abs/2025/25/epjconf_PnG2025_09013/epjconf_PnG2025_09013.html"
       }
     ]
   },
@@ -75,20 +99,13 @@ export const publications: Publication[] = [
       },
       {
         label: "PDF",
+        href: "https://asmedigitalcollection.asme.org/ssdm/proceedings-pdf/doi/10.1115/SSDM2025-152166/7513806/v001t03a016-ssdm2025-152166.pdf"
+      },
+      {
+        label: "Article",
         href: "https://asmedigitalcollection.asme.org/ssdm/proceedings/SSDM2025/88759/V001T03A016/1219011"
       }
     ]
-  },
-  {
-    title:
-      "Early-loading tangent modulus maps for dense spherical DEM assemblies across contact laws and particle-modulus regimes",
-    authors: "B. Pramay, A. M. Shembekar, and S. Gopalakrishnan",
-    venue: "Particuology",
-    year: "2026",
-    status: "Journal | accepted for publication",
-    note:
-      "Accepted for publication on 23 Sep 2026. Article reference PARTIC2709. Maps early-loading tangent moduli for dense spherical DEM assemblies across contact laws and particle-modulus regimes.",
-    links: []
   },
   {
     title:
