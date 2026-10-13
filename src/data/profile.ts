@@ -9,7 +9,7 @@ export const profile = {
   summary:
     "Computational granular mechanics with the audit trail attached: DEM simulation, contact-law comparison, elastic-window extraction, and physics-aware modelling of small-strain stiffness.",
   thesisTitle:
-    "Development of Small Strain Elastic Constitutive Models for Dense Spherical Granular Assemblies under Different Contact Conditions",
+    "Small-Strain Constitutive Models for Dense Granular Materials",
   photo: {
     src: "/profile-photo.png",
     alt: "Portrait of Pramay"
