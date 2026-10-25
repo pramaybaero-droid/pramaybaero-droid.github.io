@@ -31,30 +31,30 @@ export const projects: Project[] = [
     status: "Model study"
   },
   {
-    title: "Audited elastic-window extraction",
+    title: "Audited tangent-window extraction",
     description:
-      "Early-loading tangent moduli E, G, and K extracted from stress-strain data using audited elastic-window detection with explicit elastic-consistency checks.",
+      "Effective early-loading tangent properties extracted from finite loading windows with objective selection, quasi-static screens, and elastic-admissibility checks. A unique amplitude-independent zero-strain limit was not established.",
     tags: ["elastic window", "E, G, K", "consistency checks"],
     status: "Pipeline"
   },
   {
     title: "Separable stiffness maps",
     description:
-      "Support-limited separable laws for DEM-derived moduli with explicit dependence on particle Young's modulus, confining stress, and void ratio, calibrated under physics gates and ranked by AIC/BIC and grouped cross-validation.",
+      "Protocol-specific separable interpolation maps for DEM-derived tangent moduli with confinement, void ratio and particle stiffness as predictors, screened for physical admissibility and assessed with information criteria and grouped/design-level validation.",
     tags: ["constitutive modelling", "AIC / BIC", "grouped CV"],
     status: "Surrogate modelling"
   },
   {
     title: "Breakage-aware ensembles",
     description:
-      "Paired no-breakage and particle-breakage DEM ensembles used to analyse breakage-induced shifts in stiffness scaling, pressure exponents, and separability.",
+      "A particle-replacement/growth DEM campaign used to assess sensitivity of early-loading tangent stiffness to imposed fragment modulus, with condition-matched uncertainty analyses and tests of pressure-density interactions.",
     tags: ["particle breakage", "pressure exponents", "separability"],
     status: "Dynamics"
   },
   {
     title: "Fabric and force-network anisotropy",
     description:
-      "Contact-fabric, normal-force, tangential-force, force-support, and cross-tensor anisotropy descriptors computed per regime, connecting stiffness trends to microstructural state.",
+      "Exploratory computational analysis of fabric and force-network descriptors. This separate ongoing work is not presented as a peer-reviewed outcome of the submitted thesis.",
     tags: ["fabric tensor", "force networks", "descriptor families"],
     status: "Descriptors"
   }
