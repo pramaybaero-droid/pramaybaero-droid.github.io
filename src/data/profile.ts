@@ -1,13 +1,13 @@
 export const profile = {
   name: "Pramay Bhatpahri",
-  role: "PhD Scholar",
+  role: "PhD Researcher (thesis submitted)",
   affiliation:
     "Department of Aerospace Engineering, Indian Institute of Science (IISc), Bengaluru",
-  title: "PhD Scholar, Aerospace Engineering, IISc Bengaluru",
+  title: "PhD researcher (thesis submitted), Aerospace Engineering, IISc Bengaluru",
   headline:
-    "Small-strain elasticity of dense granular assemblies, from DEM to constitutive law",
+    "Granular tangent stiffness: from discrete-element simulations to assessed surrogates",
   summary:
-    "Computational granular mechanics with the audit trail attached: DEM simulation, contact-law comparison, elastic-window extraction, and physics-aware modelling of small-strain stiffness.",
+    "Computational granular mechanics: auditable DEM workflows, early-loading tangent moduli, conditional stiffness models, dimensional scaling, and quantitative checks of transferability.",
   thesisTitle:
     "Small-Strain Constitutive Models for Dense Granular Materials",
   photo: {
@@ -16,16 +16,16 @@ export const profile = {
   },
   cvPath: "/Pramay_CV.pdf",
   bio: [
-    "Pramay is a PhD Scholar in the Department of Aerospace Engineering at the Indian Institute of Science (IISc), Bengaluru.",
-    "His doctoral research develops DEM-calibrated constitutive descriptions for dense granular assemblies, with attention to contact-law-dependent stiffness, fabric, force networks, and validation diagnostics.",
-    "His academic background spans B.E. Mechanical Engineering and M.Tech Machine Design, with current work connecting particle-scale mechanics to continuum-scale behaviour through simulation, contact mechanics, regression, and scientific machine learning."
+    "Pramay is a doctoral researcher in Aerospace Engineering at IISc Bengaluru. He submitted his PhD thesis on 28 September 2026; the degree has not yet been awarded.",
+    "His thesis develops and assesses effective early-loading tangent-stiffness models for dry, cohesionless spherical granular assemblies. Results are specific to simulated loading protocols and tested state domains rather than universal constitutive laws.",
+    "His work spans DEM contact-law comparisons, physics-gated regression, dimensionless particle-stiffness transfer and fragment-stiffness effects in particle-replacement simulations. He also has an M.Tech background in experimental fatigue and fracture testing of steel."
   ],
   education: [
     {
       degree: "Ph.D., Aerospace Engineering",
       institution: "Indian Institute of Science (IISc), Bengaluru",
       detail:
-        "Advisor: Prof. S. Gopalakrishnan. DEM-based constitutive modelling, small-strain stiffness extraction from triaxial simulations, contact-law-dependent fabric and force-network response, and physics-aware data-driven modelling of elastic moduli."
+        "Thesis submitted 28 September 2026; degree pending. Advisor: Prof. S. Gopalakrishnan. Thesis: Small-Strain Constitutive Models for Dense Granular Materials. Topics: DEM early-loading tangent stiffness, pressure and void-ratio effects, particle-modulus scaling, dimensional transfer and breakage sensitivity."
     },
     {
       degree: "M.Tech., Machine Design (Honours)",
@@ -56,6 +56,7 @@ export const profile = {
     "Wave propagation in granular media",
     "Shock absorption",
     "Physics-aware regression",
+    "Dimensional analysis and surrogate transfer",
     "DEM-to-continuum surrogates",
     "Computational materials modelling",
     "Topological descriptors"
@@ -103,7 +104,7 @@ export const profile = {
     },
     {
       letter: "Y",
-      text: "Yielding and small-strain stiffness"
+      text: "Young's modulus and tangent response"
     }
   ]
 };
