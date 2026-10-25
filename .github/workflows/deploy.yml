@@ -31,6 +31,22 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate public academic CV
+        run: |
+          python -m pip install 'reportlab>=4,<5'
+          python scripts/generate_cv.py
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('public/Pramay_CV.pdf')
+          assert p.is_file() and p.read_bytes().startswith(b'%PDF-') and p.stat().st_size > 3000
+          print('Generated public CV:', p.stat().st_size, 'bytes')
+          PY
+
       - name: Build
         run: npm run build
 
