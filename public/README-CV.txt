@@ -1,15 +1,19 @@
-Public academic CV: /Pramay_CV.pdf
+Public CV download path: /Pramay_CV.pdf
 
-Source of truth:
+Canonical editable source:
   scripts/generate_cv.py
 
-The GitHub Pages deployment workflow regenerates public/Pramay_CV.pdf
-from this source before running the Vite build. The committed PDF is
-a fallback copy and may be older than the deployed website version.
+GitHub Pages workflow:
+  1. Installs ReportLab
+  2. Generates public/Pramay_CV.pdf
+  3. Builds and publishes the Vite site
+
+The generated binary PDF is intentionally not committed to the repository.
+This prevents a stale historical CV (including obsolete referee details)
+from being served by mistake.
 
 To regenerate locally:
   python -m pip install 'reportlab>=4,<5'
   python scripts/generate_cv.py
 
-Keep thesis degree status, publication metadata, manuscripts and
-research scope in sync with the paper record before each release.
+Verify thesis status and bibliographic metadata before editing.
