@@ -120,6 +120,17 @@ export const publications: Publication[] = [
   },
   {
     title:
+      "Dimensionless reduction removes learner dependence, not extrapolation error, in machine-learned surrogates of discrete-element granular stiffness",
+    authors: "B. Pramay and S. Gopalakrishnan",
+    venue: "Manuscript in preparation (thesis Chapter 5)",
+    year: "2026",
+    status: "Unsubmitted manuscript",
+    note:
+      "Dimensional target normalization and particle-stiffness transfer for conventional regression and machine-learning surrogates; a thesis-based, unsubmitted study, not a peer-reviewed paper.",
+    links: []
+  },
+  {
+    title:
       "Contact-law-dependent coherence of small-strain fabric and force anisotropies in DEM sphere packings",
     authors: "B. Pramay et al.",
     venue: "Manuscript in preparation",
