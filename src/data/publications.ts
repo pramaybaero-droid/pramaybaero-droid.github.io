@@ -21,11 +21,11 @@ export const publications: Publication[] = [
     title:
       "Early-loading tangent modulus maps for dense spherical DEM assemblies across contact laws and particle-modulus regimes",
     authors: "B. Pramay, Anay Mohan Shembekar, and S. Gopalakrishnan",
-    venue: "Particuology",
+    venue: "Particuology 119, 74–103",
     year: "2026",
     status: "Journal | published online",
     note:
-      "Available online 3 October 2026. Maps early-loading tangent moduli for dense spherical DEM assemblies across contact laws and particle-modulus regimes.",
+      "Published online 3 October 2026; volume 119, pages 74–103. Effective early-loading tangent maps for two contact laws and two particle-modulus regimes, with protocol-specific calibration limits.",
     links: [
       {
         label: "DOI",
@@ -40,12 +40,12 @@ export const publications: Publication[] = [
   {
     title:
       "Separable surrogates for DEM-derived elastic moduli of Hertz-Mindlin and Cundall-Strack granular packings",
-    authors: "Pramay B. and S. Gopalakrishnan",
+    authors: "B. Pramay and S. Gopalakrishnan",
     venue: "Computers and Geotechnics",
     year: "2026",
     status: "Journal | published",
     note:
-      "Volume 200, article 108453. Three-variable separable interpolation surrogates for E, G, and K over particle Young's modulus, isotropic confining stress, and initial void ratio.",
+      "Volume 200, article 108453. Domain-limited, three-variable separable interpolation maps for E, G and K, with explicit particle Young's modulus, isotropic confinement and initial void ratio.",
     links: [
       {
         label: "DOI",
@@ -111,11 +111,11 @@ export const publications: Publication[] = [
     title:
       "Breakage-induced shifts in pressure exponents, void-ratio factors, and separability of small-strain elastic moduli in granular materials",
     authors: "B. Pramay and S. Gopalakrishnan",
-    venue: "Springer Nature journal",
+    venue: "Granular Matter (manuscript under review)",
     year: "Under review",
     status: "Journal manuscript",
     note:
-      "Paired no-breakage and particle-breakage DEM ensembles with Hertz-Mindlin contacts; separable laws for E and G fitted with information criteria, grouped K-fold validation, weak-coupling separability diagnostics, and MLP surrogates.",
+      "Breakage/fragment-stiffness response under an audited particle-replacement protocol. This is not counted among published papers; the thesis and online record use different working titles pending editorial revision.",
     links: []
   },
   {
@@ -126,7 +126,7 @@ export const publications: Publication[] = [
     year: "In preparation",
     status: "In preparation",
     note:
-      "Thirty-six anisotropy invariants grouped into contact-fabric, normal-force, tangential-force, force-support, and cross-tensor descriptor families across HM and CS sphere packings.",
+      "Exploratory analysis of fabric and force-network descriptor families in simulated packings; results are not represented as peer-reviewed or part of the submitted thesis.",
     links: []
   }
 ];
