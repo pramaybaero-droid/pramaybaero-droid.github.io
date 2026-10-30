@@ -189,12 +189,31 @@ function App() {
 
                 <div>
                   <h3 className="font-serif text-2xl font-semibold text-graphite-950">
-                    Methods and tools
+                    Software and methods
                   </h3>
-                  <div className="mt-5 flex flex-wrap gap-2">
-                    {profile.technicalSkills.map((skill) => (
-                      <Tag key={skill}>{skill}</Tag>
+                  <div className="mt-5 space-y-5">
+                    {profile.softwareGroups.map((group) => (
+                      <div key={group.label}>
+                        <p className="mb-2 text-xs font-semibold tracking-wide text-graphite-600">
+                          {group.label}
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                          {group.tools.map((tool) => (
+                            <Tag key={tool}>{tool}</Tag>
+                          ))}
+                        </div>
+                      </div>
                     ))}
+                    <div>
+                      <p className="mb-2 text-xs font-semibold tracking-wide text-graphite-600">
+                        Methods and research workflows
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        {profile.technicalSkills.map((skill) => (
+                          <Tag key={skill}>{skill}</Tag>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
