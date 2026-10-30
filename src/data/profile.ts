@@ -61,23 +61,22 @@ export const profile = {
     "Computational materials modelling",
     "Topological descriptors"
   ],
+  softwareGroups: [
+    { label: "CAD modelling", tools: ["SOLIDWORKS"] },
+    { label: "Engineering analysis / commercial FEM", tools: ["ANSYS", "Abaqus"] },
+    { label: "Open-source DEM", tools: ["YADE", "LAMMPS"] },
+    { label: "Open-source FEM", tools: ["FEniCS", "FreeFEM", "Elmer"] },
+    { label: "Scientific computing and visualization", tools: ["Python", "MATLAB", "C", "ParaView", "VTK"] }
+  ],
   technicalSkills: [
-    "YADE",
-    "LAMMPS",
-    "Python",
-    "MATLAB",
-    "C",
     "Finite element method (FEM)",
     "Abaqus UMAT / Fortran",
-    "ANSYS",
-    "SOLIDWORKS",
     "NumPy / SciPy / scikit-learn",
     "Trust-region least squares",
     "Grouped K-fold CV",
     "AIC / BIC selection",
     "Bootstrap and permutation tests",
     "Neural networks / MLPs",
-    "ParaView and VTK",
     "LaTeX",
     "Git"
   ],
