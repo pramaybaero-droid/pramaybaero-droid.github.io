@@ -73,4 +73,6 @@ add("entry", "M.Tech. laboratory research | NIT Raipur / Tata Steel R&amp;D | 20
 add("small", "Tensile, fatigue, impact, fracture toughness, hardness testing and materials microscopy for API X65 steel, with supporting Abaqus modelling.")
 document = SimpleDocTemplate(str(output), pagesize=A4, leftMargin=43, rightMargin=43, topMargin=37, bottomMargin=50, title="Pramay Bhatpahri - Academic CV", author="Pramay Bhatpahri", pageCompression=1)
 document.build(story, onFirstPage=page_footer, onLaterPages=page_footer)
+if document.page != 2:
+    raise RuntimeError(f"Expected a two-page academic CV; generated {document.page} pages")
 print("Generated", output)
