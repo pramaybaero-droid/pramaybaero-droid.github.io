@@ -70,7 +70,7 @@ heading("EARLIER ACADEMIC AND EXPERIMENTAL ENGINEERING EXPERIENCE")
 add("entry", "Faculty Member | ICFAI University, Raipur | August 2016-July 2019")
 add("small", "Undergraduate engineering teaching, B.Tech project and laboratory supervision, curriculum and examination activities.")
 add("entry", "M.Tech. laboratory research | NIT Raipur / Tata Steel R&amp;D | 2015-2016")
-add("small", "Tensile, fatigue, impact, fracture toughness, hardness testing and materials microscopy for API X65 steel, with supporting Abaqus modelling.")
+add("small", "Tensile, fatigue, impact, fracture toughness, hardness testing and materials microscopy for API X65 steel, with beam modelling using SOLIDWORKS and ANSYS.")
 document = SimpleDocTemplate(str(output), pagesize=A4, leftMargin=43, rightMargin=43, topMargin=37, bottomMargin=50, title="Pramay Bhatpahri - Academic CV", author="Pramay Bhatpahri", pageCompression=1)
 document.build(story, onFirstPage=page_footer, onLaterPages=page_footer)
 if document.page != 2:
