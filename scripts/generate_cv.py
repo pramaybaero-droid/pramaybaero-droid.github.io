@@ -35,7 +35,7 @@ def page_footer(canvas, doc):
     canvas.line(42, 37, A4[0]-42, 37)
     canvas.setFillColor(muted)
     canvas.setFont("Helvetica", 8)
-    canvas.drawString(43, 27, "Pramay Bhatpahri | Academic CV | October 2026")
+    canvas.drawString(43, 27, "Pramay Bhatpahri | Academic CV | November 2026")
     canvas.drawRightString(A4[0]-43, 27, str(doc.page))
 
 add("name", "Pramay Bhatpahri")
