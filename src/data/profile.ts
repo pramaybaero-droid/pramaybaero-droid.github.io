@@ -65,20 +65,17 @@ export const profile = {
     { label: "CAD modelling", tools: ["SOLIDWORKS"] },
     { label: "Engineering analysis / commercial FEM", tools: ["ANSYS", "Abaqus"] },
     { label: "Open-source DEM", tools: ["YADE", "LAMMPS"] },
-    { label: "Open-source FEM", tools: ["FEniCS", "FreeFEM", "Elmer"] },
-    { label: "Scientific computing and visualization", tools: ["Python", "MATLAB", "C", "ParaView", "VTK"] }
+    { label: "Open-source FEM", tools: ["FEniCS", "FreeFEM"] },
+    { label: "Programming", tools: ["Python", "MATLAB"] },
+    { label: "Visualization", tools: ["ParaView"] }
   ],
   technicalSkills: [
     "Finite element method (FEM)",
-    "Abaqus UMAT / Fortran",
-    "NumPy / SciPy / scikit-learn",
     "Trust-region least squares",
     "Grouped K-fold CV",
     "AIC / BIC selection",
     "Bootstrap and permutation tests",
-    "Neural networks / MLPs",
-    "LaTeX",
-    "Git"
+    "Neural networks / MLPs"
   ],
   acronym: [
     {
