@@ -31,7 +31,7 @@ export const profile = {
       degree: "M.Tech., Machine Design (Honours)",
       institution: "National Institute of Technology, Raipur",
       detail:
-        "Thesis on fatigue and fracture behaviour of API X65 line-pipe steel, in collaboration with Tata Steel R&D, Jamshedpur."
+        "Thesis on fatigue and fracture behaviour of API X65 line-pipe steel, in collaboration with Tata Steel R&D, Jamshedpur. Laboratory work included mechanical testing and materials microscopy; beam modelling used SOLIDWORKS and ANSYS."
     },
     {
       degree: "B.E., Mechanical Engineering (First Class with Honours)",
