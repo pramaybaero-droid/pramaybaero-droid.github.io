@@ -78,6 +78,7 @@ add("small", "<b>M.Tech. coursework (NIT Raipur):</b> Advanced Numerical Techniq
 heading("PROFESSIONAL TRAINING AND CERTIFICATIONS")
 add("small", "<b>Computational Engineering &amp; Simulations using Python: FEM &amp; FVM</b> | Instructor-led online course, iHUB DivyaSampark (IIT Roorkee) and Ritvij Bharat Pvt. Ltd. | June-August 2026.")
 add("small", "<b>Finite Element Analysis: Nonlinear Dynamic Response and Soil-Structure Interaction</b> | Five-day short-term course (participation), Centre for Continuing Education, IISc Bengaluru | 15-19 July 2024.")
+add("small", "<b>Mathematics and Computing of Uncertainty Quantification in Model-Based Simulation for Risk-Informed Decision Making</b> | Two-day workshop (participation), Axis Bank Centre for Mathematics and Computing, IISc Bengaluru | 14-15 December 2023.")
 add("small", "<b>Certificate Course in AutoCAD</b> | Continuing Education Cell, NIT Raipur | August-September 2011.")
 document = SimpleDocTemplate(str(output), pagesize=A4, leftMargin=43, rightMargin=43, topMargin=37, bottomMargin=50, title="Pramay Bhatpahri - Academic CV", author="Pramay Bhatpahri", pageCompression=1)
 document.build(story, onFirstPage=page_footer, onLaterPages=page_footer)

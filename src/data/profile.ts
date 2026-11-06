@@ -147,6 +147,12 @@ export const profile = {
       detail: "Participated in a five-day short-term course."
     },
     {
+      title: "Mathematics and Computing of Uncertainty Quantification in Model-Based Simulation for Risk-Informed Decision Making",
+      provider: "Axis Bank Centre for Mathematics and Computing, IISc Bengaluru",
+      period: "14–15 December 2023",
+      detail: "Participated in a two-day workshop; instructor: Dr. Sankaran Mahadevan (Vanderbilt University)."
+    },
+    {
       title: "Certificate Course in AutoCAD",
       provider: "Continuing Education Cell, NIT Raipur",
       period: "August–September 2011",
