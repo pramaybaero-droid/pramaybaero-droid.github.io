@@ -175,6 +175,30 @@ function App() {
                 </div>
               </div>
 
+              <div>
+                <h3 className="font-serif text-2xl font-semibold text-graphite-950">
+                  Doctoral coursework
+                </h3>
+                <p className="mt-2 text-sm leading-7 text-graphite-600">
+                  IISc courses grouped by registration type. Solid Mechanics is
+                  listed under RTP only, avoiding duplication of an earlier audit.
+                </p>
+                <div className="mt-5 grid gap-6 md:grid-cols-2">
+                  {profile.coursework.map((group) => (
+                    <div key={group.category} className="border-t border-graphite-200 pt-4">
+                      <h4 className="font-semibold text-graphite-950">
+                        {group.category} courses
+                      </h4>
+                      <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-graphite-700">
+                        {group.courses.map((course) => (
+                          <li key={course}>{course}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
               <div className="grid gap-8 md:grid-cols-2">
                 <div>
                   <h3 className="font-serif text-2xl font-semibold text-graphite-950">

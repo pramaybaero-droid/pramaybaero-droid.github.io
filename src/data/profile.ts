@@ -46,6 +46,35 @@ export const profile = {
         "Undergraduate teaching, B.Tech project and laboratory supervision, curriculum development, and student mentoring."
     }
   ],
+  coursework: [
+    {
+      category: "RTP",
+      courses: [
+        "CE 205 — Finite Element Method",
+        "CE 211 — Mathematics for Engineers",
+        "CE 210 — Structural Dynamics",
+        "AE 252 — Analysis and Design of Composite Structures",
+        "AE 260 — Modal Analysis: Theory and Applications",
+        "CE 204 — Solid Mechanics",
+        "AE 204 — Flight Vehicle Structures",
+        "AE 352 — Nonlinear Mechanics of Composite Structures"
+      ]
+    },
+    {
+      category: "Audited",
+      courses: [
+        "MT 253 — Mechanical Behaviour of Materials",
+        "ME 251 — Biomechanics",
+        "CE 284 — Plates, Shells, and Geometric Elasticity",
+        "CE 228 — Introduction to the Theory of Plasticity",
+        "ME 292 — Contact and Impact Mechanics",
+        "CE 206A — Mathematical Methods for Machine Learning",
+        "ME 260 — Structural Optimization: Size, Shape, and Topology",
+        "ME 262 — Wave Propagation in Solids",
+        "CE 209A — Elastic Wave Propagation and Applications in NDE"
+      ]
+    }
+  ],
   researchInterests: [
     "Granular micromechanics",
     "Soil micromechanics",
