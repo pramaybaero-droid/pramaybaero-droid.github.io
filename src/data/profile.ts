@@ -141,6 +141,12 @@ export const profile = {
       detail: "Instructor-led online certificate course; Certificate ID: TIHRBPL1038."
     },
     {
+      title: "Finite Element Analysis: Nonlinear Dynamic Response and Soil-Structure Interaction",
+      provider: "Centre for Continuing Education, IISc Bengaluru (Department of Civil Engineering)",
+      period: "15–19 July 2024",
+      detail: "Participated in a five-day short-term course."
+    },
+    {
       title: "Certificate Course in AutoCAD",
       provider: "Continuing Education Cell, NIT Raipur",
       period: "August–September 2011",
