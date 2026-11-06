@@ -74,6 +74,7 @@ add("small", "Tensile, fatigue, impact, fracture toughness, hardness testing and
 heading("DOCTORAL COURSEWORK | IISc")
 add("small", "<b>RTP courses:</b> Finite Element Method; Mathematics for Engineers; Structural Dynamics; Analysis and Design of Composite Structures; Modal Analysis: Theory and Applications; Solid Mechanics; Flight Vehicle Structures; Nonlinear Mechanics of Composite Structures.")
 add("small", "<b>Audited courses:</b> Mechanical Behaviour of Materials; Biomechanics; Plates, Shells, and Geometric Elasticity; Introduction to the Theory of Plasticity; Contact and Impact Mechanics; Mathematical Methods for Machine Learning; Structural Optimization: Size, Shape, and Topology; Wave Propagation in Solids; Elastic Wave Propagation and Applications in NDE.")
+add("small", "<b>M.Tech. coursework (NIT Raipur):</b> Advanced Numerical Techniques; Theory of Elasticity and Plasticity; Advanced Finite Element Methods; Advanced Mechanics of Solids; Composite Mechanics and Material; Advanced Machine Design; Mechanical Vibration; Optimization Techniques; Engineering Tribology.")
 document = SimpleDocTemplate(str(output), pagesize=A4, leftMargin=43, rightMargin=43, topMargin=37, bottomMargin=50, title="Pramay Bhatpahri - Academic CV", author="Pramay Bhatpahri", pageCompression=1)
 document.build(story, onFirstPage=page_footer, onLaterPages=page_footer)
 if document.page != 2:

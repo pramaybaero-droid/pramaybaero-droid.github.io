@@ -75,6 +75,41 @@ export const profile = {
       ]
     }
   ],
+  mastersCoursework: [
+    {
+      semester: "Semester I — Autumn 2014",
+      courses: [
+        "Advanced Numerical Techniques",
+        "Engineering Tribology",
+        "Theory of Elasticity and Plasticity",
+        "Advanced Finite Element Methods",
+        "Experimental Methods for Engineers"
+      ]
+    },
+    {
+      semester: "Semester II — Spring 2015",
+      courses: [
+        "Advanced Machine Design",
+        "Advanced Mechanics of Solids",
+        "Composite Mechanics and Material",
+        "Industrial Robotics",
+        "Fault Diagnosis and Condition Monitoring"
+      ]
+    },
+    {
+      semester: "Semester III — Autumn 2015",
+      courses: [
+        "Mechanical Vibration",
+        "Optimization Techniques"
+      ]
+    }
+  ],
+  mastersPracticalComponents: [
+    "Design Labs 1–4",
+    "Minor Project",
+    "Comprehensive Examination",
+    "Dissertation and Seminar"
+  ],
   researchInterests: [
     "Granular micromechanics",
     "Soil micromechanics",

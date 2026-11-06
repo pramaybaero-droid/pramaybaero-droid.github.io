@@ -199,6 +199,36 @@ function App() {
                 </div>
               </div>
 
+              <div>
+                <h3 className="font-serif text-2xl font-semibold text-graphite-950">
+                  M.Tech. coursework — Machine Design
+                </h3>
+                <p className="mt-2 text-sm leading-7 text-graphite-600">
+                  National Institute of Technology Raipur, 2014–2016.
+                  Taught courses are separated from laboratory, project, and examination components.
+                </p>
+                <div className="mt-5 grid gap-6 md:grid-cols-3">
+                  {profile.mastersCoursework.map((semester) => (
+                    <div key={semester.semester} className="border-t border-graphite-200 pt-4">
+                      <h4 className="font-semibold text-graphite-950">
+                        {semester.semester}
+                      </h4>
+                      <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-graphite-700">
+                        {semester.courses.map((course) => (
+                          <li key={course}>{course}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+                <p className="mt-5 text-sm leading-7 text-graphite-600">
+                  <span className="font-semibold text-graphite-950">
+                    Additional academic components:
+                  </span>{" "}
+                  {profile.mastersPracticalComponents.join("; ")}.
+                </p>
+              </div>
+
               <div className="grid gap-8 md:grid-cols-2">
                 <div>
                   <h3 className="font-serif text-2xl font-semibold text-graphite-950">
