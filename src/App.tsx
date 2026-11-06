@@ -271,6 +271,79 @@ function App() {
           </div>
         </section>
 
+        <section id="earlier-research" className="scroll-mt-24 border-b border-graphite-200 bg-white px-5 py-20">
+          <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[0.85fr_1.15fr]">
+            <SectionHeading
+              eyebrow="Earlier research · 2015–2016"
+              title="M.Tech. thesis: experimental fatigue and fracture mechanics"
+              description="Experimental materials research, distinct from doctoral DEM research and separate CAD/FEM design-laboratory projects."
+            />
+            <div>
+              <h3 className="font-serif text-2xl font-semibold leading-snug text-graphite-950">
+                {profile.mtechThesis.title}
+              </h3>
+              <p className="mt-3 font-mono text-xs uppercase tracking-[0.14em] text-sand-500">
+                {profile.mtechThesis.institutions}
+              </p>
+              <p className="mt-3 text-sm leading-7 text-graphite-600">
+                <span className="font-semibold text-graphite-950">Supervisors:</span>{" "}
+                {profile.mtechThesis.supervisors}.
+              </p>
+              <p className="mt-5 text-sm leading-7 text-graphite-700">{profile.mtechThesis.objective}</p>
+              <p className="mt-4 text-sm leading-7 text-graphite-700">
+                <span className="font-semibold text-graphite-950">Methods:</span>{" "}
+                {profile.mtechThesis.methods}
+              </p>
+              <h4 className="mt-6 font-semibold text-graphite-950">Selected findings</h4>
+              <ul className="mt-3 list-disc space-y-3 pl-5 text-sm leading-7 text-graphite-700">
+                {profile.mtechThesis.outcomes.map((outcome) => <li key={outcome}>{outcome}</li>)}
+              </ul>
+              <p className="mt-4 text-xs leading-6 text-graphite-500">
+                Source: M.Tech. thesis (2016), experimental methods and Chapter 5 conclusions.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="earlier-projects" className="scroll-mt-24 border-b border-graphite-200 bg-sand-50 px-5 py-20">
+          <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[0.85fr_1.15fr]">
+            <SectionHeading
+              eyebrow="Earlier engineering"
+              title="CAD/FEM projects and industrial training"
+              description="Undergraduate and master's design projects and student industrial training, not professional engineering appointments."
+            />
+            <div className="space-y-9">
+              <div>
+                <h3 className="font-serif text-2xl font-semibold text-graphite-950">Academic design projects</h3>
+                <div className="mt-4 divide-y divide-graphite-200 border-y border-graphite-200">
+                  {profile.earlierEngineeringProjects.map((item) => (
+                    <article key={item.title} className="py-5">
+                      <p className="font-mono text-xs uppercase tracking-[0.14em] text-sand-500">
+                        {item.period} · {item.context}
+                      </p>
+                      <h4 className="mt-2 font-semibold text-graphite-950">{item.title}</h4>
+                      <p className="mt-1 text-sm font-medium text-graphite-600">{item.tools}</p>
+                      <p className="mt-2 text-sm leading-7 text-graphite-700">{item.detail}</p>
+                    </article>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h3 className="font-serif text-2xl font-semibold text-graphite-950">Student industrial training</h3>
+                <div className="mt-4 divide-y divide-graphite-200 border-y border-graphite-200">
+                  {profile.industrialTraining.map((item) => (
+                    <article key={item.organization} className="py-5">
+                      <p className="font-mono text-xs uppercase tracking-[0.14em] text-sand-500">{item.period}</p>
+                      <h4 className="mt-2 font-semibold text-graphite-950">{item.organization}</h4>
+                      <p className="mt-2 text-sm leading-7 text-graphite-700">{item.detail}</p>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section
           id="training"
           className="scroll-mt-24 border-b border-graphite-200 bg-white px-5 py-20"

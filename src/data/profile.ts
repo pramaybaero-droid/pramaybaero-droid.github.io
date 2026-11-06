@@ -31,7 +31,7 @@ export const profile = {
       degree: "M.Tech., Machine Design (Honours)",
       institution: "National Institute of Technology, Raipur",
       detail:
-        "Thesis on fatigue and fracture behaviour of API X65 line-pipe steel, in collaboration with Tata Steel R&D, Jamshedpur. Laboratory work included mechanical testing and materials microscopy; beam modelling used SOLIDWORKS and ANSYS."
+        "Thesis on fatigue and fracture behaviour of API X65 line-pipe steel, in collaboration with Tata Steel R&D, Jamshedpur. Experimental methods included tensile and fatigue testing, Charpy impact tests, J-integral-based fracture testing and microscopy. The CAD/FEM beam study was a separate design-laboratory project."
     },
     {
       degree: "B.E., Mechanical Engineering (First Class with Honours)",
@@ -110,6 +110,54 @@ export const profile = {
     "Comprehensive Examination",
     "Dissertation and Seminar"
   ],
+  mtechThesis: {
+    title: "Fatigue and Fracture Behaviour of API X65 Line Pipe Steel",
+    period: "2015–2016",
+    institutions: "NIT Raipur, in collaboration with Tata Steel R&D, Jamshedpur",
+    supervisors: "Dr. Shubhankar Bhowmick (NIT Raipur) and Dr. Shrabani Majumdar (Tata Steel R&D)",
+    objective: "Experimentally assessed thickness- and orientation-dependent fatigue, impact and fracture behaviour of hot-rolled API X65 line-pipe steel sheets with thicknesses of 5, 7.5 and 10 mm.",
+    methods: "Tensile and high-cycle fatigue tests; Charpy V-notch impact tests; elastic–plastic fracture assessment using three-point-bend specimens and the J-integral (J_Q); microhardness; optical and scanning electron microscopy; and fractography.",
+    outcomes: [
+      "Longitudinal fatigue strengths reported at a two-million-cycle no-failure criterion were 270 MPa (5 mm), 236 MPa (7.5 mm) and 174 MPa (10 mm). These values are not infinite-life fatigue limits.",
+      "For the studied sheets, Charpy impact energy increased with thickness and depended on specimen orientation.",
+      "The reported three-point-bend fracture parameter J_Q varied with specimen orientation; the 7.5 mm sheets showed the smallest longitudinal–transverse difference."
+    ]
+  },
+  earlierEngineeringProjects: [
+    {
+      title: "Multilayer cylinder stress and strain analysis",
+      period: "2014–2015",
+      context: "M.Tech. design-laboratory project",
+      tools: "SOLIDWORKS; ANSYS",
+      detail: "Studied the variation of stresses and strains as the number of cylinder layers (claddings) changed."
+    },
+    {
+      title: "CAD modelling and structural analysis of a beam",
+      period: "2014–2015",
+      context: "M.Tech. design-laboratory project",
+      tools: "SOLIDWORKS; ANSYS",
+      detail: "Developed a beam model and qualitatively compared the simulated region of failure with a beam in service."
+    },
+    {
+      title: "CAD modelling and analysis of radial-engine components",
+      period: "2012–2013",
+      context: "B.E. academic project",
+      tools: "CATIA V5",
+      detail: "Modelled radial-engine components and examined their structural response."
+    }
+  ],
+  industrialTraining: [
+    {
+      organization: "Bhilai Steel Plant, Bhilai",
+      period: "May–June 2011",
+      detail: "Student industrial training covering billet and bloom mill operations and the steel-processing workflow."
+    },
+    {
+      organization: "Hasdeo Thermal Power Station, Korba",
+      period: "June–July 2012",
+      detail: "Student industrial training in boiler maintenance and thermal power-generation processes."
+    }
+  ],
   researchInterests: [
     "Granular micromechanics",
     "Soil micromechanics",
@@ -126,7 +174,7 @@ export const profile = {
     "Topological descriptors"
   ],
   softwareGroups: [
-    { label: "CAD modelling", tools: ["SOLIDWORKS"] },
+    { label: "CAD modelling", tools: ["SOLIDWORKS", "CATIA V5"] },
     { label: "Engineering analysis / commercial FEM", tools: ["ANSYS", "Abaqus"] },
     { label: "Open-source DEM", tools: ["YADE", "LAMMPS"] },
     { label: "Open-source FEM", tools: ["FEniCS", "FreeFEM"] },
