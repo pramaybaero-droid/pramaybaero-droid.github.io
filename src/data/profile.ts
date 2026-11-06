@@ -133,6 +133,26 @@ export const profile = {
     { label: "Programming", tools: ["Python", "MATLAB"] },
     { label: "Visualization", tools: ["ParaView"] }
   ],
+  professionalTraining: [
+    {
+      title: "Computational Engineering & Simulations using Python: FEM & FVM",
+      provider: "iHUB DivyaSampark, IIT Roorkee, and Ritvij Bharat Pvt. Ltd.",
+      period: "June–August 2026",
+      detail: "Instructor-led online certificate course; Certificate ID: TIHRBPL1038."
+    },
+    {
+      title: "Certificate Course in AutoCAD",
+      provider: "Continuing Education Cell, NIT Raipur",
+      period: "August–September 2011",
+      detail: "Certificate course completed from 22 August to 24 September 2011."
+    },
+    {
+      title: "C Language Programming",
+      provider: "Simply C Computers (IT) Private Limited",
+      period: "May–June 2013",
+      detail: "Training course completed; certificate issued 21 September 2013."
+    }
+  ],
   technicalSkills: [
     "Finite element method (FEM)",
     "Trust-region least squares",

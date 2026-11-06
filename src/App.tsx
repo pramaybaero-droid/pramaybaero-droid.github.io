@@ -271,6 +271,37 @@ function App() {
           </div>
         </section>
 
+        <section
+          id="training"
+          className="scroll-mt-24 border-b border-graphite-200 bg-white px-5 py-20"
+        >
+          <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[0.85fr_1.15fr]">
+            <SectionHeading
+              eyebrow="Training"
+              title="Professional training and certifications"
+              description="Short courses and certificates, listed separately from formal degree coursework."
+            />
+            <div className="divide-y divide-graphite-200 border-y border-graphite-200">
+              {profile.professionalTraining.map((item) => (
+                <article key={item.title} className="py-6">
+                  <p className="font-mono text-xs font-medium uppercase tracking-[0.16em] text-sand-500">
+                    {item.period}
+                  </p>
+                  <h3 className="mt-2 font-serif text-xl font-semibold leading-snug text-graphite-950">
+                    {item.title}
+                  </h3>
+                  <p className="mt-2 text-sm font-semibold leading-6 text-graphite-700">
+                    {item.provider}
+                  </p>
+                  <p className="mt-1 text-sm leading-7 text-graphite-600">
+                    {item.detail}
+                  </p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section id="contact" className="scroll-mt-24 bg-white px-5 py-20">
           <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[0.8fr_1.2fr]">
             <SectionHeading
